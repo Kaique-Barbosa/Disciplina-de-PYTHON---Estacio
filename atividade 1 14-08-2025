@@ -1,0 +1,29 @@
+#atividade 1 dia 14/08/2025
+# dev: Kaique Almeida
+
+#elabore um codigo com o peso e a altura. O sistema deve
+#imprimir o IMC e a situação
+
+peso = float(input("Digite seu peso: \n"))
+altura = float(input("Digite seu peso: \n"))
+imc = peso / (altura**2)
+
+print(f"Seu imc é : {round(imc)}")
+
+if imc <= 18.5:
+    print("Abaixo do peso")
+    
+elif imc <= 24.9:
+    print("Peso Normal")
+
+elif imc <= 29.9:
+    print("Sobrepeso")
+
+elif imc <= 34.9:
+    print("Obesidade 1")
+
+elif imc <= 39.9:
+    print("Obesidade 2")
+
+elif imc > 39.9:
+    print("Obesidade Morbida")
