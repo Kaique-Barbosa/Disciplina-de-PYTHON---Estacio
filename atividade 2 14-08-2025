@@ -1,0 +1,13 @@
+#atividade 2 dia 14/08/2025
+# dev: Kaique Almeida
+
+# O sistema emite muta na rodovia para
+# velocidade < 50km/k -> R$ 200,00
+# velocidade > 120km/k -> R$ 500,00
+
+velocidade = int(input("Digite a velocidade para receber sua multa \n"))
+
+if velocidade < 50:
+    print("Receba sua multa de R$200")
+elif velocidade > 120:
+    print("Receba sua multa de R$500")
