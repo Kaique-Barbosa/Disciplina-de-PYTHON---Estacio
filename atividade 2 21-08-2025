@@ -1,0 +1,36 @@
+
+#idade = 0
+#while (idade < 18):
+ #       idade = int(input("Informe a sua idade: "))
+#print("Habilitação autorizada")
+
+lista_prod = list()
+opcao = 0
+while True:
+    print("1 - incluir produto")
+    print("2 - atualizar produto")
+    print("3 - excluir produto produto")
+    print("4 - Listar produtos cadastrados")
+    print("0 - sair")
+    
+    print("-" * 60)
+    
+    opcao = int(input("Digite a opção desejada:"))
+   
+    if(opcao == 0):
+        print(f"{"-"*30}Sistema fechado{"-"*3+0}")
+        break
+    elif(opcao == 1 ):
+        lista_prod.append(input("Digite o nome do produto: "))
+    elif(opcao == 2):
+        posicao = int(input("Digite o indice do produto: "))
+        lista_prod[posicao] = input("digite o novo produto: ")
+    elif(opcao == 3):
+        posicao = int(input("Digite o indice do produto à ser excluido: "))
+        lista_prod.pop(posicao)
+    elif(opcao == 4):
+        print(f"Todos os produtos: \n {lista_prod}")
+        break
+        
+   
+    
