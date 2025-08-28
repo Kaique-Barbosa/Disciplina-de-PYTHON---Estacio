@@ -2,7 +2,7 @@
 
 def inverter(texto) -> str:
     
-    for i in range(len(texto), -1 , -1):
+    for i in range(len(texto ) -1, -1 , -1):
         print(texto[i], end='')
     
 inverter("teste")
