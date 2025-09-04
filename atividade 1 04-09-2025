@@ -41,7 +41,15 @@ print(media_v5(16,4,70,30))
 
 
 
-
+de incluir_produto():
+    codigo =  int(input("digite o codigo do produto"))
+    nome = input("Digite o nome do produto").upper().strip()
+    preco = float(input("Digite o preço do produto"))
+    
+    produtos[srt(codigo)] = [nome,preco]
+    print(produtos)
+    
+    
 
 
 
