@@ -1,0 +1,50 @@
+# assunto sub-programa, Rotina, procedimento
+
+def media(nota1:int, nota2:int) -> int:
+    return (nota1 + nota2)/2
+    
+#chamando a função
+print(media(7,8))
+
+
+def media_v2(a,b,c=0):
+    if(c != 0):
+        quantidade = 3
+    else:   
+        quantidade = 2
+    return (a+b+c) / quantidade
+    
+print(media_v2(10 , 10, 10 ))
+
+
+def media_v3(lista):
+    return (sum(lista)/len(lista))
+    
+print(media_v3([30,40,50,60]))
+
+def media_v4(lista:list) -> float:
+    '''
+    Está função calcula a média \n 
+    aritimetica d e n números Reais
+    Args: Lista de N. Reais
+    Saida: Um valor Real
+    ex: printmedia_v4([18,33,60])
+    '''
+    return sum(lista)/len(lista)
+    
+print(media_v4([33,40,60]))
+
+def media_v5(*lista):
+    return sum(lista)/len(lista)
+    
+print(media_v5(16,4,70,30))
+
+
+
+
+
+
+
+
+    
+    
