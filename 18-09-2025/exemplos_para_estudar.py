@@ -18,6 +18,6 @@ print(reduce(lambda t,n: t * n, numeros))
 x = lambda arg : arg *2
 print(x(2))
 
+#função lambda com operação ternária
 y = lambda x: x*2 if x > 10 else x-2
-
 print(y(10))
