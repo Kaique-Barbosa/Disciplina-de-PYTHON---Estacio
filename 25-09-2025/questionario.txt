@@ -20,13 +20,16 @@ Qual a importância da indentação em Python? O que pode acontecer se o código
 Descreva a diferença entre os tipos de dados primitivos int, float, bool e str em Python. Dê exemplos de quando usar cada um.
     Resposta= int e float são para numeros, um podendo ter ponto flutuante (dacimais). bool é usado para verificar se é verdadeiro ou falso, e str para textos.
 Explique como funcionam as estruturas condicionais em Python. Escreva um exemplo usando if, elif e else, e explique seu funcionamento.
-    Resposta= 
+    Resposta=   if, usado para quando se atende uma condição é executado um bloco de código
+                elif consdição de exceção, onde o fluxo desviado deve atender a uma condição.
+                else é somente uma exção, onde o fluxo cairá por padão se as condições antes dele não forem atendidas
+
 📌 Parte 3 – Python Estruturado (3 questões)
 
 O que caracteriza um programa estruturado? Como esse paradigma é aplicado no desenvolvimento em Python?
-
+Resposta= Programa esse onde deve seguir uma sequencia de passos (fluxo) como se é esperado.
 Explique o uso de funções em Python dentro do paradigma estruturado. Quais são os benefícios de modularizar um programa com funções?
-
+    Resposta= 
 Compare a abordagem estruturada com a orientada a objetos na resolução de um problema simples, como o cálculo de média de alunos. Quais seriam as diferenças de implementação?
 
 📌 Parte 4 – Python POO (Programação Orientada a Objetos) (4 questões)
