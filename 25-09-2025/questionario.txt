@@ -1,0 +1,40 @@
+Questionário:
+
+📌 Parte 1 – Paradigmas de Linguagem de Programação (4 questões)
+
+Explique o que são paradigmas de programação. Quais são os principais paradigmas existentes? Dê exemplos de linguagens que se encaixam em cada um.
+
+Compare os paradigmas imperativo e declarativo, destacando suas principais características, vantagens e desvantagens.
+
+Como o paradigma orientado a objetos se diferencia do estruturado? Dê exemplos de como uma mesma tarefa pode ser abordada nos dois paradigmas.
+    Resposta= O codigo fica mais limpo pois os codigos estão separados em classes, o reaproveitamento de codigo é bem relevante em comparação à estruturada
+Python é considerada uma linguagem multiparadigma. O que isso significa na prática para o desenvolvedor? Dê exemplos de como diferentes paradigmas podem ser usados em Python.
+    Resposta= Quando se é possivel mesclar as formas de desenvolvimento, usando processos procedurais e orientado a objetos em conjunto.
+
+📌 Parte 2 – Python Básico (4 questões)
+
+Explique como funciona o gerenciamento de variáveis em Python. Quais são as regras para nomear variáveis? Dê exemplos válidos e inválidos.
+    Resposta= 
+Qual a importância da indentação em Python? O que pode acontecer se o código estiver mal indentado? Explique com um exemplo.
+    Resposta= Python interpreta os blocos (escopo) de codigo através da identação, diferentemente de Js por exemplo que utilisa funções entre {} para definir onde começa e onde termina o codigo.
+Descreva a diferença entre os tipos de dados primitivos int, float, bool e str em Python. Dê exemplos de quando usar cada um.
+    Resposta= int e float são para numeros, um podendo ter ponto flutuante (dacimais). bool é usado para verificar se é verdadeiro ou falso, e str para textos.
+Explique como funcionam as estruturas condicionais em Python. Escreva um exemplo usando if, elif e else, e explique seu funcionamento.
+    Resposta= 
+📌 Parte 3 – Python Estruturado (3 questões)
+
+O que caracteriza um programa estruturado? Como esse paradigma é aplicado no desenvolvimento em Python?
+
+Explique o uso de funções em Python dentro do paradigma estruturado. Quais são os benefícios de modularizar um programa com funções?
+
+Compare a abordagem estruturada com a orientada a objetos na resolução de um problema simples, como o cálculo de média de alunos. Quais seriam as diferenças de implementação?
+
+📌 Parte 4 – Python POO (Programação Orientada a Objetos) (4 questões)
+
+Explique os quatro pilares da Programação Orientada a Objetos: abstração, encapsulamento, herança e polimorfismo. Dê exemplos simples de cada um em Python.
+
+Qual a diferença entre classes e objetos em Python? Escreva um exemplo de uma classe Carro e instancie dois objetos a partir dela.
+
+Como funciona o método __init__ em Python? Qual sua função dentro de uma classe? Explique com um exemplo.
+
+Explique como funciona a herança em Python. Crie um exemplo com uma classe base Animal e duas classes filhas Cachorro e Gato. Mostre como métodos e atributos podem ser reutilizados.
